@@ -4,11 +4,31 @@ import myImg from "../../Assets/myImg.png";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Button from "react-bootstrap/Button";
+import { useNavigate } from "react-router-dom";
 
 function Home2() {
+  let navigate = useNavigate();
+  const routeChange = () => {
+    let path = "/project";
+    navigate(path);
+  };
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
+        <Button
+          variant="primary"
+          onClick={routeChange}
+          style={{
+            borderRadius: "10rem",
+            padding: "20px",
+            width: "60%",
+            paddingTop: "25px",
+            marginBottom: "100px",
+          }}
+        >
+          VIEW PROJECTS
+        </Button>
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>

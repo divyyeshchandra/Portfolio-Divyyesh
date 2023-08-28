@@ -28,7 +28,13 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20, marginTop: "5rem" }}>
+            <Col
+              md={5}
+              style={{
+                paddingBottom: 20,
+                marginTop: "5rem",
+              }}
+            >
               <img
                 src={aboutImage}
                 alt="home pic"
