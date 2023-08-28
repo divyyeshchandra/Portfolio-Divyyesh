@@ -27,7 +27,7 @@ function Home2() {
               genuinely enthusiastic about securing a challenging position
               within your esteemed company, as it presents a remarkable
               opportunity to expand my knowledge and further refine my skills as
-              a developer… 🤷‍♂️
+              a developer.
               <br />
               <br />I am fluent in classics like
               <i>
