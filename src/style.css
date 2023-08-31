@@ -259,7 +259,12 @@ button:focus {
   z-index: -1;
   background-position: top center;
   background-repeat: no-repeat;
-  background-color: black;
+  /* background-color: white; */
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(24, 24, 24) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
@@ -318,7 +323,11 @@ button:focus {
 }
 
 .home-about-section {
-  background-color: black;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(24, 24, 24) 0%,
+    rgba(0, 0, 0, 0.93) 99.4%
+  );
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
@@ -449,7 +458,11 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-color: black;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(24, 24, 24) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
 }
 
 .project-card {
@@ -548,7 +561,11 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-color: black;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(24, 24, 24) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
   color: white !important;
 }
 
@@ -608,7 +625,11 @@ button:focus {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-color: black;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(24, 24, 24) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
   color: white !important;
 }
 
