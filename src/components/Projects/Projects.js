@@ -5,7 +5,7 @@ import stakingApp from "../../Assets/Projects/token-staking-app.png";
 import ChatAppImage from "../../Assets/Projects/ChatApp.png";
 import TwitterImage from "../../Assets/Projects/TwitterApp.png";
 import MarioImage from "../../Assets/Projects/Mario.png";
-
+import NFTMint from "../../Assets/Projects/nft-minting.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -20,15 +20,14 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ChatAppImage}
+              imgPath={NFTMint}
               isBlog={false}
-              title="Chat Buddy"
-              description="A Decentralized Chat Application built on Plygon Blockchain where users can create account using thier Meta Mask address and a unique username and can make friends who are live on the application then could chat with them. The Smart Contract for the Chat App is deployed on the Polygon Mumbai Blockchain. To test the App one can create multiple accounts on the Meta Mask Polygon Mumbai with the username."
-              ghLink="https://github.com/divyyeshchandra/Chat-App-3.0"
-              demoLink="https://chat-app-3-0.vercel.app/"
+              title="Mint NFT's"
+              description="A Decentralized NFT minting website, built on the Goerli Ethereum testnet. Users can seamlessly mint NFTs linked to their personal public addresses, each possessing a unique token ID. The website utilizes pre-saved AI-generated images from the IPFS node for NFT creation. Due to Smart contract's deployment on the Goerli testnet, only 99 limited NFTs resides on the IPFS. users can calim NFT by just a simple click on the mint button."
+              ghLink="https://github.com/divyyeshchandra/Mint-NFT"
+              demoLink="https://mint-nft-delta-flax.vercel.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={stakingApp}
@@ -39,7 +38,16 @@ function Projects() {
               demoLink="https://token-staking-app-flame.vercel.app/"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ChatAppImage}
+              isBlog={false}
+              title="Chat Buddy"
+              description="A Decentralized Chat Application built on Plygon Blockchain where users can create account using thier MetaMask wallet address and a unique username and can make friends who are live on the application then could chat with them. The Smart Contract for the Chat App is deployed on the Polygon Mumbai Blockchain. To test the App one can create multiple accounts on the Meta Mask Polygon Mumbai with the username."
+              ghLink="https://github.com/divyyeshchandra/Chat-App-3.0"
+              demoLink="https://chat-app-3-0.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={TwitterImage}

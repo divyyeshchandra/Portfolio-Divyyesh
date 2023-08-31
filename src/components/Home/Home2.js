@@ -35,7 +35,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am an Full Stack Developer with specialized expertise in Web
+              I am a Full Stack Developer with specialized expertise in Web
               development and Blockchain technology. I have a wealth of
               experience working with early-stage startups and contributing to
               open-source projects as a Full Stack Developer, adeptly handling
