@@ -260,11 +260,13 @@ button:focus {
   background-position: top center;
   background-repeat: no-repeat;
   /* background-color: white; */
-  background: radial-gradient(
+  /* background: radial-gradient(
     circle at 24.1% 68.8%,
     rgb(24, 24, 24) 0%,
     rgb(0, 0, 0) 99.4%
-  );
+  ); */
+  /* background-image: url("./Assets/Projects/vector.jpg"); */
+  background-color: black;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
@@ -323,11 +325,12 @@ button:focus {
 }
 
 .home-about-section {
-  background: radial-gradient(
+  /* background: radial-gradient(
     circle at 24.1% 68.8%,
     rgb(24, 24, 24) 0%,
     rgba(0, 0, 0, 0.93) 99.4%
-  );
+  ); */
+  background-color: black;
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
