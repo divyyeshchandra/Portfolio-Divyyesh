@@ -6,6 +6,7 @@ import ChatAppImage from "../../Assets/Projects/ChatApp.png";
 import TwitterImage from "../../Assets/Projects/TwitterApp.png";
 import MarioImage from "../../Assets/Projects/Mario.png";
 import NFTMint from "../../Assets/Projects/nft-minting.png";
+import SwapToken from "../../Assets/Projects/swaptokens.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -36,6 +37,16 @@ function Projects() {
               description="A Token Staking Defi App built on Polygon Blockchain where Users can put the cryptocurrency(DBC) in the Smart Contract for 7 Days, 10 Days, 30 Days or 90 Days and can earn APY% reward for the amount of Days they stake the tokens. The Smart Contract for Token Staking and DBC Cryptocurrency is deployed on the Polygon Mumbai Network."
               ghLink="https://github.com/divyyeshchandra/Token-Staking-App"
               demoLink="https://token-staking-app-flame.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={SwapToken}
+              isBlog={false}
+              title="Uniswap-Clone"
+              description="A decentralized application where users have the ability to exchange Matic Mumbai tokens for various other coins, known as CoinA, CoinB, and CoinC. Users can also swap from Coin to Matic Mumbai tokens, and, lastly, they can exchange tokens from one Coin to another, similar to the swap feature in Uniswap. The smart contract for this application has been deployed on the Polygon Mumbai testnet, and each coin has a limit of 100,000."
+              ghLink="https://github.com/divyyeshchandra/Uniswap-clone"
+              demoLink="https://swap-tokens.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
